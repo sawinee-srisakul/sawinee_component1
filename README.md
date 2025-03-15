@@ -36,18 +36,13 @@ This is a React project that provides a course listing and detailed course pages
 
 - Uses **Tailwind CSS** for efficient and modern styling.
 
-### Development Tools
-
-- **Linting** with **ESLint**.
-- Built using **Vite** for fast performance.
-
 ## Installation and Setup
 
 ### Prerequisites
 
 Ensure you have the following installed on your machine:
 
-- Node.js (Latest LTS version recommended)
+- Node.js
 - Git
 - A package manager such as **npm** or **yarn**
 
@@ -55,17 +50,21 @@ Ensure you have the following installed on your machine:
 
 Clone this repository using the following command:
 
-````bash
-git clone https://github.com/sawinee-srisakul/sawinee-component1.git
-cd sawinee-component1
+```bash
+git clone https://github.com/sawinee-srisakul/sawinee_component1.git
+cd sawinee_component1
+```
 
 ### Install Dependencies - Run the following command to install the project dependencies:
+
 ```bash
 npm install
+```
 
-###  Running the Development Server
+### Running the Development Server
+
 ```bash
 npm run dev
-````
+```
 
 ### This will launch the application, and you can access it at http://localhost:5173 (default Vite port).
