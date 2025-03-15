@@ -56,7 +56,7 @@ Ensure you have the following installed on your machine:
 Clone this repository using the following command:
 
 ````bash
-git clone https://github.com/your-username/sawinee_component1.git
+git clone https://github.com/sawinee-srisakul/sawinee_component1.git
 cd sawinee_component1
 
 ### Install Dependencies - Run the following command to install the project dependencies:
