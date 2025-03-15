@@ -1,8 +1,71 @@
-# React + Vite
+# Sawinee Component1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This is a React project that provides a course listing and detailed course pages. The application includes:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A **Home Page** displaying a list of courses with an image, title, description, and duration.
+- A **Course Detail Page** providing detailed information about each course, including a list of modules and an enrollment button.
+- **Client-side routing** using React Router.
+- A fully **responsive design** using a mobile-first approach with Flexbox and CSS Grid.
+- **Integration with a backend API** (if applicable).
+
+## Features
+
+### Home Page
+
+- Displays a list of available courses.
+- Each course includes an image, title, description, and estimated completion time.
+- A button to navigate to the course's detailed view.
+
+### Course Detail Page
+
+- Displays in-depth course information.
+- Includes a list of modules or lessons.
+- Provides an enrollment button.
+
+### Reusable Components
+
+- Modularized components such as **CourseCard**, **CourseList**, **Header**, **Footer**, and **DropdownMenu**.
+
+### Routing
+
+- Uses **react-router-dom** for navigation between the home and detailed course pages.
+
+### Styling
+
+- Uses **Tailwind CSS** for efficient and modern styling.
+
+### Development Tools
+
+- **Linting** with **ESLint**.
+- Built using **Vite** for fast performance.
+
+## Installation and Setup
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- Node.js (Latest LTS version recommended)
+- Git
+- A package manager such as **npm** or **yarn**
+
+### Clone the Repository
+
+Clone this repository using the following command:
+
+````bash
+git clone https://github.com/your-username/sawinee_component1.git
+cd sawinee_component1
+
+### Install Dependencies - Run the following command to install the project dependencies:
+```bash
+npm install
+
+###  Running the Development Server
+```bash
+npm run dev
+````
+
+### This will launch the application, and you can access it at http://localhost:5173 (default Vite port).
