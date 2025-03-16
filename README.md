@@ -52,7 +52,6 @@ Clone this repository using the following command:
 
 ```bash
 git clone https://github.com/sawinee-srisakul/sawinee_component1.git
-cd sawinee_component1
 ```
 
 ### Install Dependencies
@@ -60,6 +59,7 @@ cd sawinee_component1
 Run the following command to install the project dependencies:
 
 ```bash
+cd sawinee_component1
 npm install
 ```
 
